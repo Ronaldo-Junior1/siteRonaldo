@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+label{
+    font-weight: 600;
+}
+
+span{
+    color: rgb(126, 126, 126);
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+form{
+    display: flex;
+    padding: 20px;
+    flex-flow: column wrap;
+    border: 3px solid black;
+    background-color: white;
+}
+
+form input,p, textarea,select{
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 5px;
+}
+
+button{
+    width: 20%;
+    height: 2rem;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: box-shadow 0.5s ease;
+}
+
+button:hover{
+    box-shadow: rgba(107, 18, 18, 0.808) 0px 5px 15px;
+}
+
+select{
+    width: 20%;
+    height: 1.5rem;
+}
+
+#pageTitle{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px;
+    font-size: 4em;
+    
+}
+
+#pageTitle a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+#pageTitle a:hover{
+    color: rgb(247, 33, 33);
+    
+}
+
+button,select{
+    cursor: pointer;
+}

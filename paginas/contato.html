@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/formulario.css">
+    <link rel="shortcut icon" href="../imagens/opium-icon.ico" type="image/x-icon">
+    <title>Opium*</title>
+</head>
+<body>
+    <h1 id="pageTitle"><a href="../index.html">*</a></h1>
+    <form>
+        <h1>Contato</h1>
+        <p>Se desejar entrar em contato,preencha o formulário</p>
+        <label>Nome <span>(Obrigatório)</span></label>
+        <input type="text" required>
+        <label>E-mail <span>(Obrigatório)</span></label>
+        <input type="email" required>
+        <label>Tipo <span>(Obrigatório)</span></label>
+        <select required>
+            <option value="" selected disabled>Escolha</option>
+            <option value="cotacao">Cotação</option>
+            <option value="show">Show</option>
+            <option value="Tour">Tour</option>
+        </select>
+        <label>Comentários <span>(Obrigatório)</span></label>
+        <textarea required rows="5"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
