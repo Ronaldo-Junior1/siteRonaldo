@@ -13,7 +13,7 @@
 .wrapper{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 8% 17% 70% 17%;
+    grid-template-rows: 8% 17% 60% 17%;
     grid-auto-rows: 100px;
     height: 100vh;
     grid-template-areas: 
